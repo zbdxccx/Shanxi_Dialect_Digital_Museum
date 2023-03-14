@@ -1,0 +1,78 @@
+a {
+	text-decoration: none; /* 去除默认的下划线 */
+	outline: none;	/* 去除旧版浏览器的点击后的外虚线框 */
+  color:rgba(171, 117, 42, 0.6)
+}
+.timeline {
+  width: 20%;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+}
+.content {
+  background-color: rgba(248, 239, 230, 0.5);
+  width: 70%;
+  padding: 7px;
+}
+h3 {
+  margin-top: 7px;
+  text-align: left;
+  vertical-align: center;
+  text-indent: 2em;
+  color: rgba(171, 117, 42); 
+}
+p {
+  margin: 0;
+  text-align: left;
+  text-indent: 2em;
+  line-height: 24px; 
+  font-size: 14px;
+  font-family:微软雅黑,'Heiti SC',黑体,Arial;
+  text-size-adjust: 100%;
+  word-wrap: break-word;
+  outline: 0ch;
+  zoom: 1;
+}
+.ant-btn {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.5);
+  float: right;
+}
+.ant-btn:hover, .ant-btn:focus {
+  color: rgba(171, 117, 42);
+  border-color: rgba(171, 117, 42);
+}
+.el-color-picker{
+  height: 22px;
+  border-radius: 50px;
+}
+.el-color-picker__trigger{
+  border:none;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.el-color-picker__color{
+  border:none;
+}
+
+.el-color-picker__color-inner{
+  border-radius: 50px;
+}
+::selection {
+    background: blue;
+}
+.bgc{
+  width: 100%;
+  display: flex;
+  padding-right: 2%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.bgc button{
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+}
